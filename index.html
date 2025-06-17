@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AGSI TECNO INDUSTRIAL</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #ffffff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      padding: 30px 20px;
+      background-color: #002c5f;
+      color: white;
+      flex-wrap: wrap;
+    }
+
+    header img {
+      height: 80px;
+    }
+
+    nav {
+      background-color: #1a1a1a;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      padding: 14px 20px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #004080;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    h2 {
+      color: #002c5f;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      background-color: #2e2e2e;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-family: inherit;
+    }
+
+    form input[type="submit"] {
+      background-color: #002c5f;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      border: none;
+    }
+
+    form input[type="submit"]:hover {
+      background-color: #004080;
+    }
+
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+
+    .whatsapp-float img {
+      width: 55px;
+      height: 55px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #002c5f;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #004080;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+
+      nav a {
+        width: 100%;
+        text-align: center;
+      }
+
+      section {
+        padding: 30px 15px;
+      }
+
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="agsi.png" alt="Logo AGSI">
+    <div>
+      <h1 style="margin: 0;">AGSI TECNO INDUSTRIAL</h1>
+      <p style="margin: 5px 0 0;">Servicios Industriales Profesionales</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#conocenos">Conócenos</a>
+    <a href="#valores">Valores</a>
+    <a href="#mision">Misión y Visión</a>
+    <a href="#personal">Nuestro Personal</a>
+    <a href="#presentacion">Presentación</a>
+    <a href="#contacto">Contacto</a>
+    <a href="#info">Información</a>
+  </nav>
+
+  <section id="servicios">
+    <h2>Nuestros Servicios</h2>
+    <p>Ofrecemos soluciones industriales personalizadas: mantenimiento, instalación, automatización y soporte técnico especializado.</p>
+  </section>
+
+  <section id="conocenos">
+    <h2>Conócenos</h2>
+    <p>SOMOS UNA EMPRESA UBICADA EN LA CIUDAD DE PUEBLA, ESPECIALIZADA EN EL SECTOR AUTOMOTRIZ. NOS DEDICAMOS A OFRECER SOLUCIONES INTEGRALES DE MONTAJE Y MANTENIMIENTO MECÁNICO PARA LÍNEAS DE ENSAMBLE AUTOMOTRIZ, GARANTIZANDO EFICIENCIA Y CALIDAD EN CADA PROYECTO.</p>
+  </section>
+
+  <section id="valores">
+    <h2>Nuestros Valores</h2>
+    <ul>
+      <li>Responsabilidad</li>
+      <li>Compromiso</li>
+      <li>Innovación</li>
+      <li>Trabajo en equipo</li>
+      <li>Excelencia</li>
+    </ul>
+  </section>
+
+  <section id="mision">
+    <h2>Misión y Visión</h2>
+    <p><strong>Misión:</strong> Brindar servicios industriales de alta calidad con soluciones innovadoras adaptadas a las necesidades de nuestros clientes.</p>
+    <p><strong>Visión:</strong> Ser líderes en el sector industrial a nivel nacional destacándonos por nuestra eficiencia, innovación y responsabilidad.</p>
+  </section>
+
+  <section id="personal">
+    <h2>Nuestro Personal</h2>
+    <p>Contamos con un equipo profesional altamente capacitado: mecánicos industriales, eléctricos, expertos en robótica, especialistas en sistemas neumáticos, diseñadores industriales y personal de limpieza para asegurar espacios seguros y óptimos.</p>
+  </section>
+
+  <section id="presentacion">
+    <h2>Presentación de la Empresa</h2>
+    <p>Puedes conocer más sobre nosotros consultando nuestra presentación oficial.</p>
+    <a href="presentacion.html" target="_blank" class="btn">Ver Presentación</a>
+  </section>
+
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <p>📧 <strong>agsi.tecnoindustrial@outlook.com</strong></p>
+    <p>📞 <strong>+52 222 114 1044</strong></p>
+    <p>💬 <a href="https://wa.me/522221141044" class="btn" target="_blank">Escríbenos por WhatsApp</a></p>
+
+    <form action="mailto:agsi.tecnoindustrial@outlook.com" method="POST" enctype="text/plain">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+
+  <section id="info">
+    <h2>Información</h2>
+    <p><strong>Ubicación:</strong> Puebla, Puebla, México</p>
+    <p><strong>Horario:</strong> Lunes a Viernes de 8:00 a 18:00</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AGSI TECNO INDUSTRIAL. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Botón WhatsApp flotante -->
+  <a class="whatsapp-float" href="https://wa.me/522221141044" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp">
+  </a>
+
+</body>
+</html>
